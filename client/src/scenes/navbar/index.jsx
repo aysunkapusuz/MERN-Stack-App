@@ -11,7 +11,7 @@ import FlexBetween from "components/FlexBetween";
 
 const Navbar = () => {
     //creating states
-    const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
+  const [isMobileMenuToggled, setIsMobileMenuToggled] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const user = useSelector((state) => state.user);
