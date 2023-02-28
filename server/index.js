@@ -62,7 +62,7 @@ const storage = multer.diskStorage({
   
 
   /* Mongoose Setup */
-const PORT = process.env.PORT || 6002;
+const PORT = process.env.PORT || 6001;
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
